@@ -1,0 +1,55 @@
+
+body {
+	margin: 50px;
+}
+input {
+	font-size:2rem;
+	display:block;
+	margin-bottom: 50px;
+}
+
+
+button {
+	width: 250px;
+	height: 100px;
+	padding: 20px;
+	background-color: #D875C7;
+	box-shadow: 10px 5px 5px #912BBC;
+	font-size: 20px;
+}
+
+.user {
+	width:250px;
+	height: 100px;
+	align-content: center;
+	border-radius: 20%;
+	text-align: center;
+}
+
+.hide {
+	display: none;
+  }
+
+ .user:nth-child(odd) {
+	background-color: #FFEBB2;
+ }
+ .user:nth-child(even) {
+	background-color: #E9A89B;
+ }
+
+  .showUserByAge p{
+	font-size: 25px;;
+  }
+
+  .showUserByAge div {
+	margin-top: 30px;
+	font-size: 20px;
+  }
+
+  .content{
+	display: grid;
+	grid-template-columns: 1fr 1fr 1fr;
+	gap: 100px
+  }
+
+ 
