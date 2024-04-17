@@ -1,55 +1,71 @@
-
 body {
-	margin: 50px;
+  margin: 50px;
 }
 input {
-	font-size:2rem;
-	display:block;
+	font-size: 1.5rem;
+	display: block;
 	margin-bottom: 50px;
-}
+	
+  }
 
-
-button {
-	width: 250px;
-	height: 100px;
-	padding: 20px;
-	background-color: #D875C7;
-	box-shadow: 10px 5px 5px #912BBC;
-	font-size: 20px;
-}
 
 .user {
-	width:250px;
-	height: 100px;
-	align-content: center;
-	border-radius: 20%;
-	text-align: center;
+  width: 250px;
+  height: 100px;
+  align-content: center;
+  border-radius: 20%;
+  text-align: center;
+  margin-bottom: 10px;
 }
 
 .hide {
-	display: none;
+  display: none;
+}
+
+.user:nth-child(odd) {
+  background-color: #ffebb2;
+}
+.user:nth-child(even) {
+  background-color: #e9a89b;
+}
+
+.showUserByAge p {
+  font-size: 25px;
+}
+
+.showUserByAge div {
+  margin-top: 30px;
+  font-size: 20px;
+}
+
+.button1 {
+  margin-top: 100px;
+  width: 250px;
+  height: 100px;
+  padding: 20px;
+  background-color: #d875c7;
+  box-shadow: 10px 5px 5px #912bbc;
+  font-size: 20px;
+}
+
+@media (min-width: 1000px) {
+  .content {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 100px;
   }
-
- .user:nth-child(odd) {
-	background-color: #FFEBB2;
- }
- .user:nth-child(even) {
-	background-color: #E9A89B;
- }
-
-  .showUserByAge p{
-	font-size: 25px;;
+  button {
+    width: 250px;
+    height: 100px;
+    padding: 20px;
+    background-color: #d875c7;
+    box-shadow: 10px 5px 5px #912bbc;
+    font-size: 20px;
+	
   }
-
-  .showUserByAge div {
-	margin-top: 30px;
-	font-size: 20px;
+  input {
+	font-size: 2rem;
+	display: block;
+	margin-bottom: 50px;
   }
-
-  .content{
-	display: grid;
-	grid-template-columns: 1fr 1fr 1fr;
-	gap: 100px
-  }
-
- 
+}
